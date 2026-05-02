@@ -9,7 +9,7 @@
 <meta name="description" content="Strategi lulusan SMA tembus kerja tambang Australia, bangun kapital global, dan pensiun dini (Slow Living) di Indonesia melalui Strategi Nabi Yusuf.">
 
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://lynk.id/muchlis-abada"> <meta property="og:title" content="Roadmap FIFO Australia 2026: Dari SMA ke Merdeka Finansial by masukis">
+<meta property="og:url" content="http://lynk.id/masukis/zyed6nrq9j3p/checkout"> <meta property="og:title" content="Roadmap FIFO Australia 2026: Dari SMA ke Merdeka Finansial by masukis">
 <meta property="og:description" content="Panduan lengkap tembus kerja tambang Australia & strategi lumbung Yusuf untuk pensiun dini di Indonesia.">
 <meta property="og:image" content="URL_GAMBAR_COVER_ANDA"> <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://lynk.id/muchlis-abada">
@@ -102,6 +102,359 @@ nav {
   font-weight: 900;
   text-transform: uppercase;
   transition: 0.3s;
+}
+.btn-buy-nav:hover { background: var(--gold-light); transform: translateY(-2px); }
+
+/* ═══════════════════════════════════════════
+   HERO SECTION (Split Reality)
+═══════════════════════════════════════════ */
+.hero {
+  min-height: 100vh;
+  padding-top: 65px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect fill='%231a2e1c' width='100' height='100'/%3E%3Cpath d='M0 0l100 100M100 0L0 100' stroke='%23ffffff' stroke-opacity='0.05'/%3E%3C/svg%3E");
+  background-color: var(--forest);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1.5rem;
+  position: relative;
+}
+
+.hero-badge {
+  background: var(--gold);
+  color: black;
+  padding: 0.5rem 1rem;
+  font-family: var(--sans);
+  font-weight: 900;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  border-radius: 2px;
+}
+
+.hero-title {
+  font-family: var(--sans);
+  font-size: clamp(2.5rem, 8vw, 5.5rem);
+  font-weight: 900;
+  line-height: 0.9;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.hero-title span { color: var(--gold); display: block; }
+
+.hero-subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  color: rgba(255,255,255,0.7);
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+.cta-main {
+  background: var(--gold);
+  color: black;
+  padding: 1.2rem 3rem;
+  font-family: var(--sans);
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(184,134,11,0.4);
+  transition: 0.3s;
+}
+.cta-main:hover { transform: scale(1.05); background: var(--gold-light); }
+
+/* ═══════════════════════════════════════════
+   THE HOOK (Pain & Solution)
+═══════════════════════════════════════════ */
+.section { padding: 8rem 1.5rem; max-width: 1000px; margin: 0 auto; }
+
+.hook-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+@media (max-width: 800px) { .hook-grid { grid-template-columns: 1fr; text-align: center; } }
+
+.hook-title {
+  font-family: var(--serif);
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.hook-text p { margin-bottom: 1.5rem; font-size: 1.1rem; color: var(--muted); }
+
+/* Stat Strip (Sync with E-book) */
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin: 3rem 0;
+}
+
+.stat-item { background: white; padding: 2.5rem 1.5rem; text-align: center; }
+.stat-num { font-family: var(--serif); font-size: 2.5rem; font-weight: 900; color: var(--forest); line-height: 1; margin-bottom: 0.5rem; }
+.stat-num.gold { color: var(--gold); }
+.stat-label { font-family: var(--mono); font-size: 0.65rem; text-transform: uppercase; color: var(--muted); letter-spacing: 1px; }
+
+/* ═══════════════════════════════════════════
+   WHAT'S INSIDE (Chapter List)
+═══════════════════════════════════════════ */
+.inside-box {
+  background: var(--forest);
+  color: var(--parch);
+  padding: 4rem 2rem;
+  border-radius: 4px;
+}
+
+.inside-title {
+  text-align: center;
+  font-family: var(--serif);
+  font-size: 2.2rem;
+  margin-bottom: 4rem;
+}
+
+.chapter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 700px) { .chapter-grid { grid-template-columns: 1fr; } }
+
+.chapter-card {
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 2rem;
+  transition: 0.3s;
+}
+
+.chapter-card:hover { border-color: var(--gold); background: rgba(255,255,255,0.05); }
+
+.chapter-num { font-family: var(--mono); color: var(--gold); font-size: 0.7rem; margin-bottom: 0.5rem; display: block; }
+.chapter-name { font-family: var(--serif); font-size: 1.2rem; font-weight: 600; margin-bottom: 1rem; }
+.chapter-desc { font-size: 0.85rem; opacity: 0.6; line-height: 1.6; }
+
+/* ═══════════════════════════════════════════
+   THE CALCULATOR (Hook Element)
+═══════════════════════════════════════════ */
+.calc-section { background: var(--parch2); padding: 8rem 1.5rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+
+.calc-panel {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px solid var(--forest);
+  padding: 3rem;
+  background: white;
+  box-shadow: var(--shadow);
+}
+
+.calc-panel-title { font-family: var(--serif); font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--forest); }
+.calc-panel-sub { font-family: var(--mono); font-size: 0.65rem; color: var(--muted); text-transform: uppercase; margin-bottom: 3rem; letter-spacing: 1px; }
+
+.calc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem; }
+@media (max-width: 500px) { .calc-grid { grid-template-columns: 1fr; } }
+
+.calc-field label { display: block; font-family: var(--mono); font-size: 0.65rem; text-transform: uppercase; margin-bottom: 0.5rem; color: var(--muted); }
+.calc-field input { width: 100%; border: 1px solid var(--line); padding: 1rem; font-family: var(--serif); font-size: 1.2rem; background: var(--parch); }
+
+.calc-btn {
+  background: var(--forest);
+  color: white;
+  border: none;
+  padding: 1.2rem;
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-style: italic;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.calc-results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--line);
+}
+
+@media (max-width: 600px) { .calc-results { grid-template-columns: 1fr; } }
+
+.calc-res-item { background: var(--forest); padding: 1.5rem; text-align: center; }
+.calc-res-val { font-family: var(--serif); font-size: 1.4rem; font-weight: 900; color: var(--gold); display: block; }
+.calc-res-label { font-family: var(--mono); font-size: 0.5rem; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-top: 0.5rem; }
+
+/* ═══════════════════════════════════════════
+   PRICING & CTA
+═══════════════════════════════════════════ */
+.pricing { text-align: center; padding: 10rem 1.5rem; }
+.price-tag { font-family: var(--sans); font-size: 4rem; font-weight: 900; color: var(--forest); margin: 1rem 0; }
+.price-original { text-decoration: line-through; color: var(--muted); font-size: 1.5rem; }
+.price-badge { background: var(--rust); color: white; padding: 0.4rem 1rem; font-size: 0.7rem; font-family: var(--sans); font-weight: 900; display: inline-block; margin-bottom: 1rem; }
+
+/* ═══════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════ */
+footer { background: var(--forest); color: rgba(255,255,255,0.4); padding: 4rem 1.5rem; text-align: center; font-family: var(--mono); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 1px; }
+
+/* Utilities */
+.reveal { opacity: 0; transform: translateY(30px); transition: 0.8s cubic-bezier(0.4, 0, 0.2, 1); }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">ROADMAP FIFO 2025</div>
+  <a href="https://lynk.id/muchlis-abada" class="btn-buy-nav">Beli Sekarang</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-badge">E-book Edisi Terbaru 2025</div>
+  <h1 class="hero-title">
+    DARI SMA KE<br>
+    <span>FIFO AUSTRALIA</span>
+  </h1>
+  <p class="hero-subtitle">Membangun Kapital Global & Hidup Tenang di Indonesia (Slow Living) Sebelum Usia 40.</p>
+  <a href="#pricing" class="cta-main">Dapatkan Roadmap Anda</a>
+  <div style="margin-top: 3rem; font-family: var(--mono); font-size: 0.65rem; color: var(--gold); letter-spacing: 2px;">STRATEGI NABI YUSUF + ATURAN 4%</div>
+</section>
+
+<section class="section">
+  <div class="hook-grid">
+    <div class="reveal">
+      <h2 class="hook-title">Waktu Adalah <em>Asset</em> Terbesar Lulusan SMA.</h2>
+      <div class="hook-text">
+        <p>Kebanyakan orang menghabiskan 4-5 tahun untuk gelar yang tidak menjamin finansial. Di Australia, industri tambang membayar Anda <strong>AU$2.000 per minggu</strong> tanpa butuh ijazah sarjana.</p>
+        <p>Gunakan jendela usia 18-30 tahun Anda untuk membangun "Lumbung Yusuf" — kapital yang cukup untuk menghidupi masa tua Anda di pedesaan Indonesia.</p>
+      </div>
+    </div>
+    <div class="stat-strip reveal">
+      <div class="stat-item">
+        <span class="stat-num">AU$2K</span>
+        <span class="stat-label">Gaji / Minggu</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num gold">3 Thn</span>
+        <span class="stat-label">Target Aset 1M+</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">40 Thn</span>
+        <span class="stat-label">Usia Merdeka</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">Rp 0</span>
+        <span class="stat-label">Biaya di Site</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="inside-box reveal">
+    <h2 class="inside-title">Apa yang Anda Pelajari?</h2>
+    <div class="chapter-grid">
+      <div class="chapter-card">
+        <span class="chapter-num">BAB 01</span>
+        <h4 class="chapter-name">Persiapan Tanah Air</h4>
+        <p class="chapter-desc">Strategi membangun modal Rp 70jt pertama melalui skill digital sebelum menginjakkan kaki di Australia.</p>
+      </div>
+      <div class="chapter-card">
+        <span class="chapter-num">BAB 02</span>
+        <h4 class="chapter-name">Jalur WHV 462</h4>
+        <p class="chapter-desc">Detail dokumen, birokrasi SDUWHV, dan cara menembus kuota imigrasi yang sangat terbatas.</p>
+      </div>
+      <div class="chapter-card">
+        <span class="chapter-num">BAB 04</span>
+        <h4 class="chapter-name">Mekanisme Gaji FIFO</h4>
+        <p class="chapter-desc">Cara masuk ke industri tambang tanpa pengalaman (Entry Level) dan mengamankan kontrak AU$100k/tahun.</p>
+      </div>
+      <div class="chapter-card">
+        <span class="chapter-num">BAB 05</span>
+        <h4 class="chapter-name">Strategi Manajemen Yusuf</h4>
+        <p class="chapter-desc">Aturan 4% & distribusi aset. Bagaimana mengubah gaji mingguan jadi passive income seumur hidup.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="calc-section">
+  <div class="calc-panel reveal">
+    <h3 class="calc-panel-title">Simulasi Kebebasan Anda</h3>
+    <p class="calc-panel-sub">Hitung berapa lama Anda harus di FIFO untuk merdeka</p>
+    <div class="calc-grid">
+      <div class="calc-field">
+        <label>Biaya Hidup di Desa (Rp Juta/Bln)</label>
+        <input type="number" id="spend" value="7" oninput="calc()">
+      </div>
+      <div class="calc-field">
+        <label>Gaji FIFO Per Tahun (Rp Juta)</label>
+        <input type="number" id="fifo" value="850" oninput="calc()">
+      </div>
+    </div>
+    <div class="calc-results">
+      <div class="calc-res-item"><span class="calc-res-val" id="r-target">Rp 2.1 M</span><span class="calc-res-label">Aset Dibutuhkan</span></div>
+      <div class="calc-res-item"><span class="calc-res-val" id="r-yrs">3.8 Thn</span><span class="calc-res-label">Lama FIFO</span></div>
+      <div class="calc-res-item"><span class="calc-res-val" id="r-passive">Rp 7 Jt</span><span class="calc-res-label">Pasif/Bln</span></div>
+    </div>
+    <div style="margin-top: 2rem; font-size: 0.8rem; color: var(--muted); font-style: italic; text-align: center;">* Berdasarkan Aturan 4% & Saving Rate FIFO 65%</div>
+  </div>
+</section>
+
+<section id="pricing" class="pricing reveal">
+  <div class="price-badge">Harga Peluncuran (Diskon 50%)</div>
+  <div class="price-original">Rp 299.000</div>
+  <div class="price-tag">Rp 149.000</div>
+  <p style="margin-bottom: 3rem; color: var(--muted);">Dapatkan akses instan ke Roadmap Lengkap (PDF).</p>
+  <a href="http://lynk.id/masukis/zyed6nrq9j3p/checkout" class="cta-main">Beli & Amankan Slot Anda</a>
+</section>
+
+<footer>
+  <div style="margin-bottom: 1rem;">© 2025 Muchlis Abada · Roadmap FIFO Australia</div>
+  <div>Gunakan Kesempatan Anda Selagi Batas Usia Belum Lewat</div>
+</footer>
+
+<script>
+// Reveal Animation
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('visible');
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+function calc() {
+  const spend = parseFloat(document.getElementById('spend').value) || 7;
+  const fifo = parseFloat(document.getElementById('fifo').value) || 850;
+  
+  const annualSpend = spend * 12;
+  const targetAsset = annualSpend / 0.04; 
+  const savingRate = 0.65; 
+  const yearsNeeded = targetAsset / (fifo * savingRate);
+
+  document.getElementById('r-target').innerText = `Rp ${ (targetAsset/1000).toFixed(1) } M`;
+  document.getElementById('r-yrs').innerText = `${yearsNeeded.toFixed(1)} Thn`;
+  document.getElementById('r-passive').innerText = `Rp ${spend} Jt`;
+}
+
+calc();
+</script>
+</body>
+</html>
+
 }
 .btn-buy-nav:hover { background: var(--gold-light); transform: translateY(-2px); }
 
